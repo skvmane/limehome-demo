@@ -1,4 +1,7 @@
 *** Settings ***
+Documentation    Tests to verify that the result of mathematical
+...              operations is calculated correctly according
+...              to the entered/selected values and stored in history
 Resource         ../pages/main_page.robot
 Library          SeleniumLibrary
 Library          ../utils/DriverManagerLib.py
@@ -7,7 +10,7 @@ Test Setup       Open Browser From Config
 Test Teardown    Close Browser
 
 *** Test Cases ***
-Valid Title
+Title Should Be Valid
     [Documentation]    Checking that the main page title should be valid
     Title Should Be    Super Calculator
 

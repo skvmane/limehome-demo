@@ -1,4 +1,7 @@
 *** Settings ***
+Documentation      Basic keywords to for interacting with the calculator.
+...                Operators supported: ADDITION(+), SUBTRACTION(-),
+...                DIVISION(/), MODULO(%), MULTIPLICATION(*)
 Library                   SeleniumLibrary
 Library                   ../utils/ParserLib.py
 Library                   ../utils/DriverManagerLib.py
