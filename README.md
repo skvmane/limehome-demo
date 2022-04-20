@@ -1,4 +1,4 @@
-### E2E Automation Project
+# E2E Automation Project
 ## Project details:
 E2E Automation Project is the framework written with [Robot Framework](https://robotframework.org/) and the corresponding [SeleniumLibrary](SeleniumLibrary/)
 ## Project structure:
